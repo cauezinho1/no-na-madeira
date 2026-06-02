@@ -115,3 +115,64 @@
             font-size: 2.5rem;
         }
     }
+
+    /*SOBRE NÓS*/
+
+    .sobre-nos {
+        width: 100%;
+    }
+    .sobre-nos-title h1 {
+        font-size: 1.8rem;
+        color: var(--marrom);
+        margin-top: 2rem;
+        font-family:'Cormorant Garamond', serif;
+        text-align: center;
+    }
+    .sobre-nos-title p {
+        font-size: 0.9rem;
+        color: var(--texto);
+        font-family:'Montserrat', sans-serif;
+        text-align: center;
+        margin-top: 0.5rem;
+    }
+    .sobre-nos-content {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 3rem;
+        align-items: center;
+        gap: 2rem;
+    }
+    .sobre-nos-img img {
+        width: 130%;
+        height: 500px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+    .sobre-nos-text {
+        width: 45%;
+    }
+    .sobre-nos-text h2 {
+        font-size: 2.9rem;
+        color: var(--marrom);
+        font-family:'Cormorant Garamond', serif;
+        margin-bottom: 1rem;
+    }
+    .sobre-nos-text p {
+        font-size: 0.9rem;
+        color: var(--texto);
+        font-family:'Montserrat', sans-serif;
+        line-height: 1.5;
+    }
+    @media screen and (max-width:768px) {
+        .sobre-nos-content {
+            flex-direction: column;
+            text-align: center;
+        }
+        .sobre-nos-img img {
+            width: 100%;
+            height: auto;
+        }
+        .sobre-nos-text {
+            width: 100%;
+        }
+    }
