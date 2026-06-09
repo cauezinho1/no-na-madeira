@@ -293,3 +293,51 @@
         transform: translateY(-5px);
         transition: 0.5s ease;
     }
+
+    /*Depoimentos*/
+
+    .depoimentos {
+        margin-top: 3rem;
+        width: 85%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .depoimentos h1 {
+        font-size: 1.8rem;
+        color: var(--marrom);
+        margin-top: 2rem;
+        font-family:'Cormorant Garamond', serif;
+        text-align: center;
+    }
+    .depoimentos-title p {
+        font-size: 0.9rem;
+        color: var(--texto);
+        font-family:'Montserrat', sans-serif;
+        text-align: center;
+        margin-bottom: 1.8rem;
+    }
+    .depoimentos-content {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .depoimentos-content .depoimentos-card {
+        width: 300px;
+        padding: 1rem;
+        background-color: var(--verde);
+        border: 1px solid var(--verde);
+        border-radius: 8px;
+        text-align: center;
+    }
+    .depoimentos-content .depoimentos-card p {
+        font-size: 0.9rem;
+        color: var(--white);
+        font-family:'Montserrat', sans-serif;
+        line-height: 1.5;
+    }
+    .depoimentos-content .depoimentos-card h3 {
+        font-size: 1.2rem;
+        color: var(--white);
+        font-family:'Cormorant Garamond', serif;
+        margin-top: 1rem;
+    }
