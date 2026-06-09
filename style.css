@@ -254,3 +254,42 @@
             align-items: center;
         }
     }
+
+    /*Galeria*/
+
+    .galeria {
+        margin-top: 3rem;
+        width: 85%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .galeria-title h1 {
+        font-size: 1.8rem;
+        color: var(--marrom);
+        margin-top: 2rem;
+        font-family:'Cormorant Garamond', serif;
+        text-align: center;
+    }
+    .galeria-title p {
+        font-size: 0.9rem;
+        color: var(--texto);
+        font-family:'Montserrat', sans-serif;
+        text-align: center;
+        margin-bottom: 1.8rem;
+    }
+    .galeria-content {
+        align-items: center;
+        display:grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 0.5rem;
+    }
+    .galeria-content img {
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 8px;
+        height: 200px;
+        
+    }.galeria-content img:hover {
+        transform: translateY(-5px);
+        transition: 0.5s ease;
+    }
