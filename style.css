@@ -390,3 +390,29 @@
             font-size: 2.5rem;
         }
     }
+    .footer {
+        width: 100%;
+        padding: 1rem 0;
+        text-align: center;
+        margin-top: 3rem;
+    }
+    .footer h1 {
+        font-size: 2.0rem;
+        color: var(--marrom);
+        font-family:'Cormorant Garamond', serif;
+    }
+    .footer p {
+        font-size: 0.8rem;
+        color: var(--verde);
+        font-family:'Montserrat', sans-serif;
+        margin-top: 0.5rem;
+    }
+    .footer-media {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 0.5rem;
+    }
+    .footer-media a {
+        color: var(--texto);
+    }
